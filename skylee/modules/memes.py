@@ -433,7 +433,7 @@ def goodmorning(update, context):
 
 
 __help__ = """
-Some dank memes for fun or whatever!
+Some fun or whatever!
 
  × /shrug | /cri: Get shrug or ToT.
  × /decide: Randomly answer yes no etc.
@@ -449,20 +449,21 @@ Some dank memes for fun or whatever!
  × /stretch:  streeeeeeetch iiiiiiit.
  × /warm: Hug a user warmly, or get hugged if not a reply.
  × /punch: Punch a user, or get punched if not a reply.
+ ×/song <Song-name>: This Command Is To Download Any Music From YouTube
 
-*Regex based memes:*
+*Regex based fun:*
 
-`/decide` can be also used with regex like: `skylee? <question>: randomly answer "Yes, No" etc.`
+`/decide` can be also used with regex like: `SpiderMan? <question>: randomly answer "Yes, No" etc.`
 
 Some other regex filters are:
 `me too` | `goodmorning` | `goodnight`.
 
-Skylee will reply random strings accordingly when these words are used!
+SpiderMan will reply random strings accordingly when these words are used!
 All regex filters can be disabled incase u don't want... like: `/disable metoo`.
 
 """
 
-__mod_name__ = "Memes"
+__mod_name__ = "Fun"
 
 SHRUG_HANDLER = DisableAbleCommandHandler("shrug", shrug)
 DECIDE_HANDLER = DisableAbleMessageHandler(
